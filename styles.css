@@ -1,0 +1,20 @@
+/* Reset */ * { margin:0; padding:0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+.container { width: 90%; max-width: 1100px; margin: auto; }
+/* Header */ .site-header { background: #fff; border-bottom: 1px solid #ddd; padding: 1rem 0; }
+.site-header .logo { font-size: 1.5rem; text-decoration: none; color: #333; font-weight: bold; }
+.site-header .site-nav { float: right; } .site-header .site-nav a { margin-left: 1.5rem; text-decoration: none; color: #333; }
+/* Hero */ .hero { background: #f6faff; padding: 4rem 0; text-align: center; }
+.hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+.hero p { font-size: 1.125rem; margin-bottom: 2rem; }
+.btn { display: inline-block; padding: .75rem 1.5rem; text-decoration: none; border-radius: 4px; }
+.btn-primary { background: #0077cc; color: #fff; margin-right: 1rem; }
+.btn-secondary { background: #fff; color: #0077cc; border: 2px solid #0077cc; }
+/* How It Works */ .how-it-works { padding: 3rem 0; background: #fff; text-align: center; }
+.how-it-works h2 { margin-bottom: 2rem; font-size: 2rem; }
+.steps { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; }
+.step { flex: 1 1 200px; padding: 1rem; }
+.step-icon { font-size: 3rem; margin-bottom: 1rem; }
+/* Footer */ .site-footer { background: #f4f4f4; padding: 1rem 0; text-align: center; }
+.site-footer .footer-nav a { margin: 0 .75rem; color: #555; text-decoration: none; }
+/* Responsive */ @media (max-width: 768px) { .site-header .site-nav { float: none; text-align: center; margin-top: 1rem;} .steps { flex-direction: column; } }
